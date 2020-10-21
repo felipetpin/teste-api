@@ -22,7 +22,7 @@ module.exports = {
       user: 'node',
       host: '212.83.163.1',
       ref: 'origin/master',
-      repo: 'git@gitlab.com:finnet-sa/painelfornecedor/api-antecipag.git',
+      repo: '',
       path: '/var/www/staging',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env staging'
     },
@@ -30,7 +30,7 @@ module.exports = {
       user: 'node',
       host: '212.83.163.1',
       ref: 'origin/master',
-      repo: 'git@gitlab.com:finnet-sa/painelfornecedor/api-antecipag.git',
+      repo: '',
       path: '/var/www/production',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production'
     }
